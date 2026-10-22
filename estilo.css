@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: #1a202c;
+}
+
+#menu {
+    border-bottom: 1px solid #f8fcff;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+}
+
+.menu-contenido {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo-nombre {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #0f172a;
+}
+
+.menu-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.menu-links a {
+    text-decoration: none;
+    color: #4a5568;
+    font-size: 0.95rem;
+}
+
+.menu-links a:hover {
+    color: #2563eb;
+}
+
+/* main */
+.contenedor {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* PERFIL / SOBRE MI */
+.seccion-perfil {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.info-perfil h1 {
+    font-size: 2rem;
+    color: #0f172a;
+    margin-bottom: 6px;
+}
+
+.subtitulo {
+    color: #2563eb;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.descripcion {
+    color: #475569;
+    line-height: 1.5;
+}
+
+/* SEPARADOR */
+.separador {
+    border-top: 1px solid #f1f5f9;
+    margin: 35px 0;
+}
+
+/* SECCIONES Y TARJETAS */
+.seccion h2 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #0f172a;
+}
+
+.icono-titulo {
+    color: #2563eb;
+}
+
+.grid-tarjetas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.tarjeta {
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.tarjeta h3 {
+    font-size: 1.05rem;
+    margin-bottom: 6px;
+    color: #0f172a;
+}
+
+.institucion-link {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-block;
+    margin-bottom: 6px;
+}
+
+.institucion-link:hover {
+    color: #1d4ed8;
+    text-decoration: underline; 
+}
+
+.detalles {
+    color: #94a3b8;
+    font-size: 0.85rem;
+}
+
+/* ENLACES / BOTONES */
+.grid-enlaces {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.botón-enlace {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 18px;
+    text-decoration: none;
+    color: #0f172a;
+    font-weight: 600;
+}
+
+.botón-enlace:hover {
+    background-color: #f8fafc;
+    border-color: #cbd5e1;
+}
+
+.botón-enlace i {
+    font-size: 1.3rem;
+    color: #2563eb;
+}
+
+/* PIE DE PAGINA */
+#pie {
+    text-align: center;
+    padding: 30px;
+    color: #64748b;
+    font-size: 0.85rem;
+    border-top: 1px solid #f1f5f9;
+    margin-top: 40px;
+}
